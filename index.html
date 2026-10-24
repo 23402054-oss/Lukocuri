@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>গ্রামীণ লুকোচুরি গেম</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- গেমের স্ক্রিন -->
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <!-- মোবাইলের জন্য টাচ কন্ট্রোল (জয়স্টিকের বিকল্প) -->
+        <div class="controls">
+            <button id="up" class="btn">Up</button>
+            <div class="horizontal-btns">
+                <button id="left" class="btn">Left</button>
+                <button id="down" class="btn">Down</button>
+                <button id="right" class="btn">Right</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
